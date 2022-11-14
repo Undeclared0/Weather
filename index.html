@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<title>Weather Website</title>
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+    <div id="main_header">
+        <div class="head_item" id="date">
+            <br>
+            <strong >WEATHER REPORT</strong>
+            <br>
+            <br>
+        </div>
+    </div>
+    <form id="search-form">
+        <input type="search" placeholder="  Enter City Name " id="search-input" required autocomplete="off"/>
+        <br>
+        </br>
+        <button id="search-button">Search</button>
+
+    </form>
+    
+
+    <div class="grid-item" id="box">
+        <div class="results">
+
+            <main id="app-container">
+                <p class="weather_day">-------</p>
+                <p class="weather_date">-------</p>
+                <div id="location">
+                    <p>-------</p>
+                </div>
+                <div id="temp">
+                    <img id="temp-icon" src="sun.svg" alt="">
+                    <p><span id="temp-value">-----</span><span id="temp-unit">&#176C</span> </p>
+                </div>
+
+                <div id="climate">
+                    <p>------</p>
+                </div>
+            </main>
+
+        </div>
+    </div>
+
+
+
+    <script src="script.js">
+
+    </script>
+</body>
+
+</html>
